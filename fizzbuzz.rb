@@ -1,8 +1,8 @@
 def fizzbuzz(int)
- if int % 3 >= 1
+ if int % 3 == 1
    puts "Fizz"
  elsif int % 5 == "Buzz"
-   puts "Buzz"
+   return "Buzz"
  elsif int % 15 == "Fizzbuzz"
    puts "Fizzbuzz"
  else int % 4 == 0
