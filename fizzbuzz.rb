@@ -1,5 +1,5 @@
 def fizzbuzz(int)
- if int % 3 == true
+ if int % 3 == false
    puts "Fizz"
  elsif int % 5 == "Buzz"
    puts "Buzz"
